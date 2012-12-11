@@ -1,0 +1,9 @@
+BUS_STORE MEM[4128] = 0 accepted 2
+BUS_STORE MEM[4112] = 8 accepted 1
+BUS_STORE MEM[4120] = 16 accepted 1
+BUS_STORE MEM[4128] = 24 accepted 1
+BUS_STORE MEM[4152] = 32 accepted 1
+BUS_STORE MEM[4176] = 40 accepted 1
+BUS_STORE MEM[4200] = 48 accepted 1
+BUS_STORE MEM[4224] = 56 accepted 1
+BUS_STORE MEM[4248] = 64 accepted 1

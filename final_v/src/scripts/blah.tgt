@@ -1,0 +1,76 @@
+----------------------------------------------------------------------------------------------------------------------------------------
+How to use: for the input port stubs, write in this format:
+			wire     [a:b]: signal@0,0 signal@1,1 signal@5,5 etc.
+			signal@0 is signal before first negedge. Number after signal indicates the absolute clock #, example:
+			a (one wire): 1,0 0,3 1,4 will translate to:
+			a=1 //a initialized to 1
+			@(negedge clock)
+			a=1
+			@(negedge clock)
+			a=1
+			@(negedge clock)
+			a=0 //0 after 3 negedges
+			@(negedge clock)
+			a=1 //1 after 4 negedges
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+MODULENAME: @@@rs@@@	Do not edit, for internal state
+@@@inputs@@@ (all lines above this is ignored):
+@reset	(one wire): 0,0 1,1
+@mt_T1A	[6:0]: 1,1 1,2
+	2,15
+@mt_T2A	[6:0]: 'd15,2 'd32,0
+@mt_T1B	[6:0]: 6'd14,15 6'd10,3
+	6'd49,0 6'd3,59
+@mt_T2B	[6:0]:
+@mt_archIdxA	[4:0]:
+@mt_archIdxB	[4:0]:
+@fl_TA	[5:0]:
+@fl_TB	[5:0]:
+@ex_cm_cdbAIdx	[5:0]:
+@ex_cm_cdbBIdx	[5:0]:
+@ex_cm_cdbA_en	(one wire):
+@ex_cm_cdbB_en	(one wire):
+@id_op1A_select	[1:0]:
+@id_op2A_select	[1:0]:
+@id_op1B_select	[1:0]:
+@id_op2B_select	[1:0]:
+@id_alu_funcA	[4:0]:
+@id_alu_funcB	[4:0]:
+@id_IRA	[31:0]:
+@id_IRB	[31:0]:
+@id_IRA_valid	(one wire):
+@id_IRB_valid	(one wire):
+@rob_idxA	[4:0]:
+@rob_idxB	[4:0]:
+@rob_instA_en	(one wire):
+@rob_instB_en	(one wire):
+@ex_alu_full	(one wire):
+@ex_mulq_full	(one wire):
+@ex_ld_full	(one wire):
+@ex_sv_full	(one wire):
+
+@@@outputs@@@ (all lines below this is ignored, DO NOT EDIT used for internal state)
+@rs_almostFull_out	(one wire):
+@rs_busy_out	(one wire):
+@rs_alu_funcA_out	[4:0]:
+@rs_alu_funcB_out	[4:0]:
+@rs_IRA_out	[31:0]:
+@rs_IRB_out	[31:0]:
+@rs_issueA_out	[2:0]:
+@rs_issueB_out	[2:0]:
+@rs_issueArdy_out	(one wire):
+@rs_issueBrdy_out	(one wire):
+@rs_op1A_select_out	[1:0]:
+@rs_op2A_select_out	[1:0]:
+@rs_op1B_select_out	[1:0]:
+@rs_op2B_select_out	[1:0]:
+@rs_rob_idxA_out	[4:0]:
+@rs_rob_idxB_out	[4:0]:
+@rs_TA_out	[5:0]:
+@rs_TB_out	[5:0]:
+@rs_T1A_out	[5:0]:
+@rs_T2A_out	[5:0]:
+@rs_T1B_out	[5:0]:
+@rs_T2B_out	[5:0]:
+@initFreeA	[3:0]:

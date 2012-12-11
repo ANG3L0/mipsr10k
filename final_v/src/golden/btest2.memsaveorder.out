@@ -1,0 +1,2 @@
+BUS_STORE MEM[16000] = 0xbeefbeefbaadbaad accepted 2
+BUS_STORE MEM[16008] = 0xdeadbeefdeadbeef accepted 1

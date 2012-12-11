@@ -1,0 +1,5 @@
+4:lda
+8:lda
+12:addq
+16:addq
+20:halt

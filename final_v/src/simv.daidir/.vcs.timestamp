@@ -1,0 +1,177 @@
+0 
+53
++v2k
++vc
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -O -I/usr/caen/vcs-2011.03/include
+-Mcmodrun=
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mldflags=
+-Mobjects= /usr/caen/vcs-2011.03/amd64/lib/libvirsim.so /usr/caen/vcs-2011.03/amd64/lib/liberrorinf.so /usr/caen/vcs-2011.03/amd64/lib/libsnpsmalloc.so
+-Mout=simv
+-Msaverestoreobj=/usr/caen/vcs-2011.03/amd64/lib/vcs_save_restore_new.o
+-Msyslibs=-ldl
+-Mupdate
+-Mvcsaceobjs=
+-cm_xmldb
+-full64
+-gen_obj
+-line
+-o simv
+-sverilog
+/usr/caen/vcs-2011.03/amd64/bin/vcs1
+sys_defs.vh
+testbench/mem.v
+testbench/pipeline_test.v
+verilog/BTB.v
+verilog/Dcache.v
+verilog/Icache.v
+verilog/archtable.v
+verilog/bs.v
+verilog/cache.v
+verilog/cachecontroller.v
+verilog/ex_stage/alu.v
+verilog/ex_stage/ex_pipeline.v
+verilog/ex_stage/mult_decoder.v
+verilog/ex_stage/mult_stage.v
+verilog/ex_stage/pipe_mult.v
+verilog/freelist.v
+verilog/id_stage.v
+verilog/if_id.v
+verilog/if_stage.v
+verilog/ldq.v
+verilog/maptable.v
+verilog/pipeline.v
+verilog/pr.v
+verilog/prefetch.v
+verilog/rob.v
+verilog/rob_connect.v
+verilog/rs2.v
+verilog/stq.v
+85
+mraarch=linux
+installdir=/usr/caen/hspice-2011.09-SP2/hspice
+_LMFILES_=/usr/caen/misc/modules/cadence-ic/5.141_usr6.151:/usr/caen/misc/modules/mmsim/11.10.487:/usr/caen/misc/modules/incisiv/11.10.061:/usr/caen/misc/modules/calibre/2012.2_17:/usr/caen/misc/modules/synopsys-synth/2012.06/64b:/usr/caen/misc/modules/edi/10.1:/afs/umich.edu/class/coe/modules/eecs427/f12:/usr/caen/misc/modules/hspice/2011.09-SP2:/usr/caen/misc/modules/vcs/2011.03
+XLIB_SKIP_ARGB_VISUALS=1
+XDG_SESSION_COOKIE=48c8987a61de281725d589ca0000001d-1355107963.519321-72255386
+XAUTHORITY=/var/run/gdm/auth-for-angelowo-8nToZI/database
+VMR_MODE_FLAG=64
+VENDOR=unknown
+VCS_MODE_FLAG=64
+VCS_HOME=/usr/caen/vcs-2011.03
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=amd64
+USERNAME=angelowo
+UNAME=/bin/uname
+TOOL_HOME=/usr/caen/vcs-2011.03/amd64
+TMIARCH=RH
+SYNOPSYS=/usr/caen/synopsys-synth-2012.06
+SW_VCS=2011.03
+SW_MMSIM=11.10.487
+SSH_AUTH_SOCK=/tmp/keyring-CInCIW/socket.ssh
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+SSH_AGENT_PID=1343
+SPECMAN_HOME=/usr/caen/incisiv-11.10.061/specman
+SOCV_KIT_HOME=/usr/caen/incisiv-11.10.061/kits/VerificationKit
+SNPS_PLATFORM=linux
+SNPSLMD_LICENSE_FILE=/usr/caen/vcs-2011.03/license.dat:/usr/caen/vcs-2011.03/flexlm//license.dat
+SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/1373,unix/unix:/tmp/.ICE-unix/1373
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+REMOTEHOST=127.0.0.1
+QT_IM_MODULE=xim
+QTLIB=/usr/lib64/qt-3.3/lib
+QTINC=/usr/lib64/qt-3.3/include
+QTDIR=/usr/lib64/qt-3.3
+PROJ470=/afs/umich.edu/user/a/n/angelowo/470FINAL/src/
+OVA_UUM=0
+OSTYPE=linux
+ORBIT_SOCKETDIR=/tmp/orbit-angelowo
+MROOT=/afs/umich.edu/user/a/n/angelowo/minisat
+MODULESHOME=/usr/share/Modules
+MODULEPATH=/usr/share/Modules/modulefiles:/etc/modulefiles:/usr/caen/misc/modules:/afs/umich.edu/class/coe/modules
+MGLS_LICENSE_FILE=/usr/caen/calibre-2012.2_17/license.dat
+MGC_HOME=/usr/caen/calibre-2012.2_17
+MFLAGS=
+MANPAGER=/usr/bin/less -is
+MAKELEVEL=1
+MAKEFLAGS=
+LOADEDMODULES=cadence-ic/5.141_usr6.151:mmsim/11.10.487:incisiv/11.10.061:calibre/2012.2_17:synopsys-synth/2012.06/64b:edi/10.1:f12:hspice/2011.09-SP2:vcs/2011.03
+LESSOPEN=|/usr/bin/lesspipe.sh %s
+KRB5CCNAME=FILE:/tmp/krb5cc_994651_L5CWyG
+KDE_IS_PRELINKED=1
+KDEDIRS=/usr
+IMSETTINGS_MODULE=none
+IMSETTINGS_INTEGRATE_DESKTOP=yes
+HSP_HOME=/usr/caen/hspice-2011.09-SP2/hspice
+HSP_GCC_VERSION=4.2.2
+HSP_GCC=/usr/caen/hspice-2011.09-SP2/hspice/GNU/amd64/gcc-4.2.2-static/bin/gcc 
+HOSTTYPE=x86_64-linux
+HOSTNAME=caen-vnc04.engin.umich.edu
+HOST=caen-vnc04.engin.umich.edu
+G_BROKEN_FILENAMES=1
+GTK_RC_FILES=/etc/gtk/gtkrc:/afs/umich.edu/user/a/n/angelowo/.gtkrc-1.2-gnome2
+GROUP=users
+GNOME_KEYRING_SOCKET=/tmp/keyring-CInCIW/socket
+GNOME_KEYRING_PID=1213
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+GDM_LANG=en_US.UTF-8
+GDM_KEYBOARD_LAYOUT=us
+GDMSESSION=gnome
+ENABLE_XRC_ENGINE=77AaBD43
+DESKTOP_SESSION=gnome
+DD_DONT_DO_OS_LOCKS=SET
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-Afoy9F6ufJ,guid=4fbaa360700f85be44ad395f00207263
+COLORTERM=gnome-terminal
+CMIARCH=RH
+CLS_CDSD_COMPATIBILITY_LOCKING=NO
+CDS_Netlisting_Mode=Analog
+CDS_LOAD_ENV=CSF
+CDS_LIC_FILE=/usr/caen/edi-10.1/share/license/license.dat
+CDS_INSTALL_DIR=/usr/caen/ic-5.141_usr6.151/tools/dfII
+CDSHOME=/usr/caen/ic-5.141_usr6.151
+CDS=/usr/caen/ic-5.141_usr6.151
+CAENVNCSTART=1
+ARCH=linux
+0
+28
+1355116363 verilog/stq.v
+1355116363 verilog/ldq.v
+1355116363 verilog/prefetch.v
+1355116363 verilog/pipeline.v
+1355116363 verilog/bs.v
+1355116363 verilog/rob_connect.v
+1355116363 verilog/cache.v
+1355116363 verilog/Dcache.v
+1355116363 verilog/cachecontroller.v
+1355116363 verilog/Icache.v
+1355116363 verilog/freelist.v
+1355116363 verilog/maptable.v
+1355116363 verilog/ex_stage/mult_decoder.v
+1355116363 verilog/ex_stage/pipe_mult.v
+1355116363 verilog/ex_stage/mult_stage.v
+1355116363 verilog/ex_stage/ex_pipeline.v
+1355116363 verilog/ex_stage/alu.v
+1355116363 verilog/rs2.v
+1355116363 verilog/pr.v
+1355116363 verilog/rob.v
+1355116363 verilog/archtable.v
+1355116363 verilog/if_id.v
+1355116363 verilog/id_stage.v
+1355116363 verilog/if_stage.v
+1355116363 verilog/BTB.v
+1355116402 testbench/pipeline_test.v
+1355116361 testbench/mem.v
+1355118491 sys_defs.vh
+4
+0 
+1298523545 /usr/caen/vcs-2011.03/amd64/lib/libvirsim.so
+1298523345 /usr/caen/vcs-2011.03/amd64/lib/liberrorinf.so
+1298523150 /usr/caen/vcs-2011.03/amd64/lib/libsnpsmalloc.so
+1355118494 simv.daidir

@@ -1,0 +1,181 @@
+
+assembling addmult.s
+running addmult
+copying addmult.program.out
+[37maddmult success!
+(B[m
+assembling branch_test.s
+running branch_test
+copying branch_test.program.out
+[37mbranch_test success!
+(B[m
+assembling branch_test1.s
+running branch_test1
+copying branch_test1.program.out
+[37mbranch_test1 success!
+(B[m
+assembling branch_test_2loop.s
+running branch_test_2loop
+copying branch_test_2loop.program.out
+[37mbranch_test_2loop success!
+(B[m
+assembling btest1.s
+running btest1
+copying btest1.program.out
+[37mbtest1 success!
+(B[m
+assembling btest2.s
+running btest2
+copying btest2.program.out
+[37mbtest2 success!
+(B[m
+assembling copy.s
+running copy
+copying copy.program.out
+[37mcopy success!
+(B[m
+assembling copy_long.s
+running copy_long
+copying copy_long.program.out
+[37mcopy_long success!
+(B[m
+assembling evens.s
+running evens
+copying evens.program.out
+[37mevens success!
+(B[m
+assembling evens_long.s
+running evens_long
+copying evens_long.program.out
+[37mevens_long success!
+(B[m
+assembling fib.s
+running fib
+copying fib.program.out
+[37mfib success!
+(B[m
+assembling fib_long.s
+running fib_long
+copying fib_long.program.out
+[37mfib_long success!
+(B[m
+assembling fib_rec.s
+running fib_rec
+copying fib_rec.program.out
+[37mfib_rec success!
+(B[m
+assembling halt.s
+running halt
+copying halt.program.out
+[37mhalt success!
+(B[m
+assembling insertion.s
+running insertion
+copying insertion.program.out
+[37minsertion success!
+(B[m
+assembling loads.s
+running loads
+copying loads.program.out
+[37mloads success!
+(B[m
+assembling mult.s
+running mult
+copying mult.program.out
+[37mmult success!
+(B[m
+assembling multbranch.s
+running multbranch
+copying multbranch.program.out
+[37mmultbranch success!
+(B[m
+assembling multt_test.s
+running multt_test
+copying multt_test.program.out
+[37mmultt_test success!
+(B[m
+assembling objsort.s
+running objsort
+copying objsort.program.out
+[37mobjsort success!
+(B[m
+assembling parallel.s
+running parallel
+copying parallel.program.out
+[37mparallel success!
+(B[m
+assembling parallel_long.s
+running parallel_long
+copying parallel_long.program.out
+[37mparallel_long success!
+(B[m
+assembling parsort.s
+running parsort
+copying parsort.program.out
+[37mparsort success!
+(B[m
+assembling saxpy.s
+running saxpy
+copying saxpy.program.out
+[37msaxpy success!
+(B[m
+assembling simpleloadstore.s
+running simpleloadstore
+copying simpleloadstore.program.out
+[37msimpleloadstore success!
+(B[m
+assembling simpleret.s
+running simpleret
+copying simpleret.program.out
+[37msimpleret success!
+(B[m
+assembling sort.s
+running sort
+copying sort.program.out
+[37msort success!
+(B[m
+assembling storelong.s
+running storelong
+copying storelong.program.out
+[37mstorelong success!
+(B[m
+assembling storelongandhard.s
+running storelongandhard
+copying storelongandhard.program.out
+[37mstorelongandhard success!
+(B[m
+assembling storemult.s
+running storemult
+copying storemult.program.out
+[37mstoremult success!
+(B[m
+assembling stores.s
+running stores
+copying stores.program.out
+[37mstores success!
+(B[m
+assembling stq.s
+running stq
+copying stq.program.out
+[37mstq success!
+(B[m
+assembling test.s
+running test
+copying test.program.out
+[37mtest success!
+(B[m
+assembling test_depend.s
+running test_depend
+copying test_depend.program.out
+[37mtest_depend success!
+(B[m
+assembling test_depend2.s
+running test_depend2
+copying test_depend2.program.out
+[37mtest_depend2 success!
+(B[m
+assembling test_mult.s
+running test_mult
+copying test_mult.program.out
+[37mtest_mult success!
+(B[m

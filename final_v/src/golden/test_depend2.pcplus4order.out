@@ -1,0 +1,9 @@
+4:lda
+8:lda
+12:lda
+16:lda
+20:mulq
+24:mulq
+28:mulq
+32:mulq
+36:halt

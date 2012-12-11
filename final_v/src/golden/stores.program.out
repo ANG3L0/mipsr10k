@@ -1,0 +1,65 @@
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version G-2012.09_Full64; Runtime version G-2012.09_Full64;  Dec 10 00:19 2012
+@@
+@@
+@@                     0  Asserting System reset......
+@@
+@@                     0 : System STILL at reset, can't show anything
+@@
+@@
+@@                   100 : System STILL at reset, can't show anything
+@@
+@@
+@@                   200 : System STILL at reset, can't show anything
+@@
+@@
+@@                   300 : System STILL at reset, can't show anything
+@@
+@@                   360  Deasserting System reset......
+@@
+@@
+@@@ Unified Memory contents hex on left, decimal on right: 
+@@@
+@@@ mem[    0] = 203f0008201f0000 : 2323575967645106176
+@@@ mem[    8] = 207f0018205f0010 : 2341590434878259216
+@@@ mem[   16] = 20bf0028209f0020 : 2359604902111412256
+@@@ mem[   24] = 20ff003820df0030 : 2377619369344565296
+@@@ mem[   32] = b4001020211f0040 : 12970384657007706176
+@@@ mem[   40] = b4421008b4211008 : 12988961904857780232
+@@@ mem[   48] = b4841018b4631008 : 13007539322044485640
+@@@ mem[   56] = b4c61038b4a51028 : 13026116807950667816
+@@@ mem[   64] = b5081058b4e71048 : 13044694293856849992
+@@@ mem[   72] = 0000000000000555 : 1365
+@@@
+@@@ mem[ 4112] = 0000000000000008 : 8
+@@@ mem[ 4120] = 0000000000000010 : 16
+@@@ mem[ 4128] = 0000000000000018 : 24
+@@@
+@@@ mem[ 4152] = 0000000000000020 : 32
+@@@
+@@@ mem[ 4176] = 0000000000000028 : 40
+@@@
+@@@ mem[ 4200] = 0000000000000030 : 48
+@@@
+@@@ mem[ 4224] = 0000000000000038 : 56
+@@@
+@@@ mem[ 4248] = 0000000000000040 : 64
+@@@
+@@@
+@@                 12220 : System halted
+@@
+@@@ System halted on HALT instruction
+@@@
+@@
+@@  119 cycles / 18 instrs = 6.611111 CPI
+@@
+@@  3540.00 ns total time to execute
+@@
+
+$finish called from file "testbench/testbench.v", line 290.
+$finish at simulation time                13220
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1322000 ps
+CPU Time:      0.450 seconds;       Data structure size:   0.1Mb
+Mon Dec 10 00:19:57 2012

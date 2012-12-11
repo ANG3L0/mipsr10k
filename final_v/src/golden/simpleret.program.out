@@ -1,0 +1,69 @@
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version G-2012.09_Full64; Runtime version G-2012.09_Full64;  Dec 10 00:19 2012
+@@
+@@
+@@                     0  Asserting System reset......
+@@
+@@                     0 : System STILL at reset, can't show anything
+@@
+@@
+@@                   100 : System STILL at reset, can't show anything
+@@
+@@
+@@                   200 : System STILL at reset, can't show anything
+@@
+@@
+@@                   300 : System STILL at reset, can't show anything
+@@
+@@                   360  Deasserting System reset......
+@@
+@@
+@@@ Unified Memory contents hex on left, decimal on right: 
+@@@
+@@@ mem[    0] = 221f000423df1000 : 2458683939349270528
+@@@ mem[    8] = 203f0400d3400003 : 2323580334337163267
+@@@ mem[   16] = 00000555b4010000 : 5865650323456
+@@@ mem[   24] = 420035a1e6000010 : 4755860175968010256
+@@@ mem[   32] = 43c4153ef420000e : 4883051256104353806
+@@@ mem[   40] = b61e0000b75e0018 : 13122926367280594968
+@@@ mem[   48] = d35ffff842003530 : 15231173906514588976
+@@@ mem[   56] = a61e0000b41e0008 : 11970004862619222024
+@@@ mem[   64] = d35ffff442005530 : 15231173889334727984
+@@@ mem[   72] = 40200400a43e0008 : 4620697618484166664
+@@@ mem[   80] = 43c4141ea75e0018 : 4883050017865990168
+@@@ mem[   88] = 47e034006bfa8001 : 5179196747892293633
+@@@ mem[   96] = 000000006bfa8001 : 1811578881
+@@@
+@@@ mem[ 1024] = 0000000000000005 : 5
+@@@
+@@@ mem[ 4000] = 0000000000000002 : 2
+@@@ mem[ 4008] = 0000000000000001 : 1
+@@@
+@@@ mem[ 4024] = 0000000000000038 : 56
+@@@ mem[ 4032] = 0000000000000002 : 2
+@@@ mem[ 4040] = 0000000000000001 : 1
+@@@
+@@@ mem[ 4056] = 0000000000000048 : 72
+@@@ mem[ 4064] = 0000000000000004 : 4
+@@@ mem[ 4072] = 0000000000000003 : 3
+@@@
+@@@ mem[ 4088] = 000000000000000c : 12
+@@@
+@@@
+@@                 56620 : System halted
+@@
+@@@ System halted on HALT instruction
+@@@
+@@
+@@  563 cycles / 94 instrs = 5.989362 CPI
+@@
+@@  16860.00 ns total time to execute
+@@
+
+$finish called from file "testbench/testbench.v", line 290.
+$finish at simulation time                57620
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 5762000 ps
+CPU Time:      0.440 seconds;       Data structure size:   0.1Mb
+Mon Dec 10 00:19:52 2012

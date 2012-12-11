@@ -1,0 +1,16 @@
+BUS_STORE MEM[4096] = 1 accepted 2
+BUS_STORE MEM[4104] = 1 accepted 1
+BUS_STORE MEM[4112] = 2 accepted 1
+BUS_STORE MEM[4120] = 3 accepted 1
+BUS_STORE MEM[4128] = 5 accepted 1
+BUS_STORE MEM[4136] = 8 accepted 1
+BUS_STORE MEM[4144] = 13 accepted 1
+BUS_STORE MEM[4152] = 21 accepted 1
+BUS_STORE MEM[4160] = 34 accepted 1
+BUS_STORE MEM[4168] = 55 accepted 1
+BUS_STORE MEM[4176] = 89 accepted 1
+BUS_STORE MEM[4184] = 144 accepted 1
+BUS_STORE MEM[4192] = 233 accepted 1
+BUS_STORE MEM[4200] = 377 accepted 1
+BUS_STORE MEM[4208] = 610 accepted 1
+BUS_STORE MEM[4216] = 987 accepted 1

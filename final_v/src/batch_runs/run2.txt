@@ -1,0 +1,103 @@
+
+assembling addmult.s
+running addmult
+copying addmult.program.out
+[37maddmult success!
+(B[m
+assembling branch_test.s
+running branch_test
+copying branch_test.program.out
+[37mbranch_test success!
+(B[m
+assembling branch_test1.s
+running branch_test1
+copying branch_test1.program.out
+[37mbranch_test1 success!
+(B[m
+assembling branch_test_2loop.s
+running branch_test_2loop
+copying branch_test_2loop.program.out
+[37mbranch_test_2loop success!
+(B[m
+assembling btest1.s
+running btest1
+copying btest1.program.out
+[37mbtest1 success!
+(B[m
+assembling btest2.s
+running btest2
+copying btest2.program.out
+[37mbtest2 success!
+(B[m
+assembling copy.s
+running copy
+copying copy.program.out
+[37mcopy success!
+(B[m
+assembling copy_long.s
+running copy_long
+copying copy_long.program.out
+[37mcopy_long success!
+(B[m
+assembling evens.s
+running evens
+copying evens.program.out
+[37mevens success!
+(B[m
+assembling evens_long.s
+running evens_long
+copying evens_long.program.out
+[37mevens_long success!
+(B[m
+assembling fib.s
+running fib
+copying fib.program.out
+[37mfib success!
+(B[m
+assembling fib_long.s
+running fib_long
+copying fib_long.program.out
+[37mfib_long success!
+(B[m
+assembling fib_rec.s
+running fib_rec
+copying fib_rec.program.out
+[37mfib_rec success!
+(B[m
+assembling halt.s
+running halt
+copying halt.program.out
+[37mhalt success!
+(B[m
+assembling insertion.s
+running insertion
+copying insertion.program.out
+[37minsertion success!
+(B[m
+assembling loads.s
+running loads
+copying loads.program.out
+[31mloads failed!
+(B[m
+assembling mult.s
+running mult
+copying mult.program.out
+[37mmult success!
+(B[m
+assembling multbranch.s
+running multbranch
+copying multbranch.program.out
+[37mmultbranch success!
+(B[m
+assembling multt_test.s
+running multt_test
+copying multt_test.program.out
+[37mmultt_test success!
+(B[m
+assembling objsort.s
+running objsort
+copying objsort.program.out
+[31mobjsort failed!
+(B[m
+assembling parallel.s
+running parallel

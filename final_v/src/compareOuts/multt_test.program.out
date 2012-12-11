@@ -1,0 +1,57 @@
+Chronologic VCS simulator copyright 1991-2011
+Contains Synopsys proprietary information.
+Compiler version E-2011.03_Full64; Runtime version E-2011.03_Full64;  Dec 10 00:51 2012
+@@
+@@
+@@                     0  Asserting System reset......
+@@
+@@                     0 : System STILL at reset, can't show anything
+@@
+@@
+@@                    10 : System STILL at reset, can't show anything
+@@
+@@
+@@                    20 : System STILL at reset, can't show anything
+@@
+@@@ Unified Memory contents hex on left, decimal on right: 
+@@@
+@@@ mem[    0] = 205f000a203f0001 : 2332583175491878913
+@@@ mem[    8] = 209f0008207f0002 : 2350597565415620610
+@@@ mem[   16] = 4c6304034c630403 : 5504247581789848579
+@@@ mem[   24] = 4c6304034c630403 : 5504247581789848579
+@@@ mem[   32] = 4c6304034c630403 : 5504247581789848579
+@@@ mem[   40] = 4c6304034c630403 : 5504247581789848579
+@@@ mem[   48] = 4c6304034c630403 : 5504247581789848579
+@@@ mem[   56] = 4c6304034c630403 : 5504247581789848579
+@@@ mem[   64] = 4c6304034c630403 : 5504247581789848579
+@@@ mem[   72] = 4c6304034c630403 : 5504247581789848579
+@@@ mem[   80] = 4c6304034c630403 : 5504247581789848579
+@@@ mem[   88] = 4c6304034c630403 : 5504247581789848579
+@@@ mem[   96] = 4c6304034c630403 : 5504247581789848579
+@@@ mem[  104] = 4c6304034c630403 : 5504247581789848579
+@@@ mem[  112] = 4c6304034c630403 : 5504247581789848579
+@@@ mem[  120] = 4c6304034c630403 : 5504247581789848579
+@@@ mem[  128] = 4c6304034c630403 : 5504247581789848579
+@@@ mem[  136] = 4c6304034c630403 : 5504247581789848579
+@@@ mem[  144] = 4c6304034c630403 : 5504247581789848579
+@@@ mem[  152] = 4c6304034c630403 : 5504247581789848579
+@@@ mem[  160] = 4c6304034c630403 : 5504247581789848579
+@@@ mem[  168] = 0000000000000555 : 1365
+@@@
+@@@
+@@                  3542 : System halted
+@@
+@@@ System halted on HALT instruction
+@@@
+@@
+@@  353 cycles / 43 instrs = 8.209302 CPI
+@@
+@@  10560.00 ns total time to execute
+@@
+
+$finish called from file "testbench/pipeline_test.v", line 817.
+$finish at simulation time                 3542
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 3542
+CPU Time:      0.330 seconds;       Data structure size:   0.3Mb
+Mon Dec 10 00:51:23 2012

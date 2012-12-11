@@ -1,0 +1,44 @@
+Chronologic VCS simulator copyright 1991-2011
+Contains Synopsys proprietary information.
+Compiler version E-2011.03_Full64; Runtime version E-2011.03_Full64;  Dec 10 00:51 2012
+@@
+@@
+@@                     0  Asserting System reset......
+@@
+@@                     0 : System STILL at reset, can't show anything
+@@
+@@
+@@                    10 : System STILL at reset, can't show anything
+@@
+@@
+@@                    20 : System STILL at reset, can't show anything
+@@
+@@@ Unified Memory contents hex on left, decimal on right: 
+@@@
+@@@ mem[    0] = 205f0001203f000a : 2332583136837173258
+@@@ mem[    8] = 209f0004207f03f7 : 2350597548235752439
+@@@ mem[   16] = 40220521215f0002 : 4621261807487483906
+@@@ mem[   24] = 40a2052520bf0005 : 4657290621675831301
+@@@ mem[   32] = 40c304034c250406 : 4666578051094873094
+@@@ mem[   40] = 40e4040440250407 : 4675866729419965447
+@@@ mem[   48] = f4bffff9414a040a : 17636096111813461002
+@@@ mem[   56] = 40220408f43ffff6 : 4621260604139634678
+@@@ mem[   64] = 0000055540a20409 : 5863714718729
+@@@
+@@@
+@@                  4842 : System halted
+@@
+@@@ System halted on HALT instruction
+@@@
+@@
+@@  483 cycles / 638 instrs = 0.757053 CPI
+@@
+@@  14460.00 ns total time to execute
+@@
+
+$finish called from file "testbench/pipeline_test.v", line 817.
+$finish at simulation time                 4842
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 4842
+CPU Time:      0.420 seconds;       Data structure size:   0.3Mb
+Mon Dec 10 00:51:05 2012
